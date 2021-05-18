@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 0% 0;
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #D6D6D6;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: #696969;
+}
+
+/* ENCABEZADO */
+
+.contenedor.encabezado{
+    background-color: #BADA55;
+}
+
+.imagen-vinilo{
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 479px;
+    height: 451px;
+}
+
+.contenedor.textos-enca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor.textos-enca h1{
+    font-size: 42px;
+    font-family: 'impact';
+    margin-top: 30px;
+}
+
+.contenedor.textos-enca span{
+    font-size: 70px;
+    font-family: 'Jockey One', sans-serif;
+}
+
+.contenedor.textos-enca h2{
+    font-size: 20px;
+    font-family: 'impact';
+    margin-top: 50px;
+}
+
+.contenedor.textos-enca h3{
+    font-size: 18px;
+    font-family: 'impact';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* SOBRE NOSOTROS */
+
+.contenedor.sobre-nosotros{
+    background-color: #D6D6D6;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen-puerta{
+    width: 310px;
+    height: 309px;
+    margin-top: 20px;
+    object-position: 50% 50%;
+    margin-bottom: 20px;
+}
+
+.contenedor-textos{
+    margin-top: 55px;
+    margin-left: -330px;
+}
+
+.contenedor-textos h4{
+    margin-top: 10px;
+}
+
+/* HORARIO */
+
+.contenedor.horario{
+    background-color: #BADA55;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-vinilo2{
+    margin-top: 15px;
+    width: 192px;
+    height: 129px;
+}
+
+.contenedor-textos2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contenedor-textos2 h2{
+    margin-top: 20px;
+    font-size: 36px;
+    font-family: 'impact';
+}
+
+.contenedor-textos2 h3{
+    margin-top: 5px;
+    font-size: 28px;
+    font-family: 'jockey one';
+}
+
+.contenedor-textos2 h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'oswald';
+}
+
+.contenedor-textos2 h5{
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.contenedor-textos2 span{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.imagen-euro{
+    margin-top: 15px;
+    width: 262px;
+    height: 69px;
+}
